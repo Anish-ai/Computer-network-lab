@@ -2,7 +2,7 @@ import socket
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect(('localhost', 8767))
-print("connected to server on 9000")
+print("connected to server on 8767")
 name = "Anish Kumar"
 while True:
     int_client = int(input("Enter your integer between 1 to 100: "))
